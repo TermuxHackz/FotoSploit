@@ -17,7 +17,7 @@ etc..
  pkg install -y python2
  pkg install -y git
  cd $HOME
- git clone https://github.com/Cesar-Hack-Gray/FotoSploit 
+ git clone https://github.com/TermuxHackz/FotoSploit 
  cd FotoSploit
 ls
  bash install.sh 
@@ -28,7 +28,7 @@ ls
  pkg install -y python2
  pkg install -y git
  CD $HOME
- git clone https://github.com/Cesar-Hack-Gray/FotoSploit 
+ git clone https://github.com/TermuxHackz/FotoSploit 
  cd FotoSploit 
 ls
  bash install.sh --install --premium
@@ -73,7 +73,7 @@ _____________________________________________________________________
  |__ \. ^ .
 ^~~~^~~~^
  _________________________________________________________________ 
- Created by @CesarHackGray
+ Created by @AnonyminHack5
  Usage: show options
 
  FotoSploit> show options
