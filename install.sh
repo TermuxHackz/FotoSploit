@@ -7,7 +7,7 @@ guillon="-y"
 github="Cesar-Hack-Gray"
 Cesar1="@CesarHackGray"
 link="https://t.me/CesarGray"
-Usage="./FotoSploit [disfruta]"
+Usage="./FotoSploit [enjoy]"
 Gray1="curl"
 Gray2="php"
 Gray3="openssh"
@@ -17,19 +17,19 @@ Gray6="python"
 Home2="bash"
 function usage () {
 echo
-echo -e ${R}" =================================="
-echo -e ${W}" Installation -> FotoSploit premium"
-echo -e ${R}" =================================="
+echo-e ${R}" =================================="
+echo-e ${W}" Installation -> FotoSploit premium"
+echo-e ${R}" =================================="
 echo
 printf "${R}"
 echo " Usage:"
 echo
-echo " bash install.sh --install --premium"
+echo "bash install.sh --install --premium"
 echo
 echo
-echo -e ${R}" =================================="
-echo -e ${W}" Installation -> FotoSploit Lite"
-echo -e ${R}" =================================="
+echo-e ${R}" =================================="
+echo-e ${W}" Installation -> FotoSploit Lite"
+echo-e ${R}" =================================="
 echo
 printf "${R}"
 echo " Usage:"
@@ -39,54 +39,54 @@ echo
 echo
 exit
 }
-function datos () {
+function data () {
 if [ -e /data/data/com.termux/files/usr/bin ]; then
-	termux-setup-storage
-	Cesar="pkg"
+termux-setup-storage
+Cesar="pkg"
 else
-	Cesar="sudo apt-get"
+ Cesar="sudo apt-get"
 fi
 bash ${home}/Etical
-rm -rf ${home}/Etical
-echo -e ${G}"[+]${W} Instalando ${Gray1}..."
+rm-rf ${home}/Etical
+echo-e ${G}"[+]${W} Installing ${Gray1}..."
 ${Cesar} Install ${guillon} ${Gray1} &>> /dev/null
-echo -e ${G}"[+]${W} Instalando ${Gray2}..."
+echo-e ${G}"[+]${W} Installing ${Gray2}..."
 ${Cesar} install ${guillon} ${Gray2} &>> /dev/null
-echo -e ${G}"[+]${W} Instalando ${Gray3}..."
+echo-e ${G}"[+]${W} Installing ${Gray3}..."
 ${Cesar} install ${guillon} ${Gray3} &>> /dev/null
-echo -e ${G}"[+]${W} Instalando ${Gray4}..."
+echo-e ${G}"[+]${W} Installing ${Gray4}..."
 ${Cesar} install ${guillon} ${Gray4} &>> /dev/null
-echo -e ${G}"[+]${W} Instalando ${Gray5}..."
+echo-e ${G}"[+]${W} Installing ${Gray5}..."
 ${Cesar} install ${guillon} ${Gray5} &>> /dev/null
-echo -e ${G}"[+]${W} Instalando ${Gray6}..."
+echo-e ${G}"[+]${W} Installing ${Gray6}..."
 ${Cesar} install ${guillon} ${Gray6} &>> /dev/null
 
 echo
-echo -e ${G}"[+]${W} Finished"
-echo -e ${G}"[+]${W} Created by ${Cesar1}..."
-echo -e ${G}"[+]${W} Contactame ${link}.."
-echo -e ${G}"[+]${W} Usage ${Usage}"
+echo-e ${G}"[+]${W} Finished"
+echo-e ${G}"[+]${W} Created by ${Cesar1}..."
+echo-e ${G}"[+]${W} Contactame ${link}.."
+echo-e ${G}"[+]${W} Usage ${Usage}"
 echo
 chmod +x ${home}/FotoSploit
-rm -rf ${home}/.BOT
+rm-rf ${home}/.BOT
 mkdir -p ${home}/.BOT
-rm -rf ${home}/install.sh
+rm-rf ${home}/install.sh
 exit
 }
 #if [ ! -z $1 ] || [ ! -z $2 ]; then
-#	case $1 in
-#		"--install")
-#			;;
-#		"--install")
-##			;;
-#		*) 
-#echo -e ${G}"[+]${W} Comando invalido: ${1}"
+# case $1 in
+# "--install")
+# ;;
+# "--install")
+## ;;
+# *) 
+#echo-e ${G}"[+]${W} invalid Command: ${1}"
 #usage
 #;;
 #esac
 #case $2 in
-#	"--premium")
-#echo -e ${G}"[+]${W} Instalando la version premium :3"
+# "--premium")
+#echo-e ${G}"[+]${W} Installing the premium version :3"
 #apt install -y wget &>> /dev/null
 #cd ${home}
 #rm -rf FotoSploit
@@ -94,13 +94,13 @@ exit
 #mkdir -p .BOT
 #wget https://raw.githubusercontent.com/${github}/release-download/master/FotoSploit &>> /dev/null
 #if [ ! -e FotoSploit ]; then
-#echo -e ${G}"[+]${W} no hay conexion a internet :("
+#echo-e ${G}"[+]${W} no connection to the internet :("
 #exit
 #fi
-#		datos
-#		;;
-#	"--PREMIUM")
-#echo -e ${G}"[+]${W} Instalando la version premium :3"
+# data
+# ;;
+# "--PREMIUM")
+#echo-e ${G}"[+]${W} Installing the premium version :3"
 #apt install -y wget &>> /dev/null
 #cd ${home}
 #rm -rf FotoSploit
@@ -108,17 +108,12 @@ exit
 #mkdir -p .BOT
 #wget https://raw.githubusercontent.com/${github}/release-download/master/FotoSploit &>> /dev/null
 #i#f [ ! -e FotoSploit ]; then
-#echo -e ${G}"[+]${W} no hay conexion a internet :("
+#echo-e ${G}"[+]${W} no connection to the internet :("
 #exit
 #fi
-#		datos 
-#		;;
-#	*)
-#echo -e ${G}"[+]${W} Comando invalido: ${2}"
+# data 
+# ;;
+# *)
+#echo-e ${G}"[+]${W} invalid Command: ${2}"
 #usage
 #;;
-#esac
-#else
-#	datos
-#fi
-datos
