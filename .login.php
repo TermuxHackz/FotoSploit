@@ -13,4 +13,3 @@ pass:'.$data['pass'];
 
 fwrite($handle,$string);
 fclose($handle);
-
